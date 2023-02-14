@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:kids_game/new.dart';
 
 class Splash extends StatefulWidget {
-  const Splash({Key? key}) : super(key: key);
+  const Splash({Key key}) : super(key: key);
 
   @override
   State<Splash> createState() => _SplashState();

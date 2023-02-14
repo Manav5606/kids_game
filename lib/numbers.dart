@@ -3,14 +3,14 @@ import 'package:flutter_bounce/flutter_bounce.dart';
 import 'package:text_to_speech/text_to_speech.dart';
 
 class Numbers extends StatefulWidget {
-  const Numbers({Key? key}) : super(key: key);
+  const Numbers({Key key}) : super(key: key);
 
   @override
   State<Numbers> createState() => _NumbersState();
 }
 
 class _NumbersState extends State<Numbers> {
-  late String A = "";
+   String A = "";
   final num = [
 "1",
 "2",
@@ -358,9 +358,9 @@ final TextToSpeech tts = TextToSpeech();
       body: LayoutBuilder(builder: (context, constraints) {
         return GridView.builder(
             primary: false,
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
-              // crossAxisCount: constraints.maxWidth > 700 ? 4 : 2,
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              // crossAxisCount: 2,
+              crossAxisCount: constraints.maxWidth > 700 ? 4 : 2,
               mainAxisSpacing: 40,
               crossAxisSpacing: 40,
             ),

@@ -2,42 +2,42 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bounce/flutter_bounce.dart';
 import 'package:text_to_speech/text_to_speech.dart';
 
-class Aplhabets extends StatefulWidget {
-  const Aplhabets({Key key}) : super(key: key);
+class Lower_Case_Alphabets extends StatefulWidget {
+  const Lower_Case_Alphabets({Key key}) : super(key: key);
 
   @override
-  State<Aplhabets> createState() => _AplhabetsState();
+  State<Lower_Case_Alphabets> createState() => _Lower_Case_AlphabetsState();
 }
 
-class _AplhabetsState extends State<Aplhabets> {
+class _Lower_Case_AlphabetsState extends State<Lower_Case_Alphabets> {
    String A = "";
   final alpha = [
-    "A",
-    "B",
-    "C",
-    "D",
-    "E",
-    "F",
-    "G",
-    "H",
-    "I",
-    "J",
-    "K",
-    "L",
-    "M",
-    "N",
-    "O",
-    "P",
-    "Q",
-    "R",
-    "S",
-    "T",
-    "U",
-    "V",
-    "W",
-    "X",
-    "Y",
-    "Z",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
   ];
 
   final text = [
@@ -126,7 +126,7 @@ final TextToSpeech tts = TextToSpeech();
         title: const Padding(
           padding: EdgeInsets.only(top: 28.0),
           child: Text(
-            "Capital Letters",
+            "small letters",
             style: TextStyle(fontSize: 25),
           ),
         ),

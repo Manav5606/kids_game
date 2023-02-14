@@ -5,24 +5,24 @@ import 'package:flutter_bounce/flutter_bounce.dart';
 import 'package:text_to_speech/text_to_speech.dart';
 
 class Shapes extends StatefulWidget {
-  const Shapes({Key? key}) : super(key: key);
+  const Shapes({Key key}) : super(key: key);
 
   @override
   State<Shapes> createState() => _ShapesState();
 }
 
 class _ShapesState extends State<Shapes> {
-  late String rectangle = "";
-  late String circle = "";
-  late String triangle = "";
-  late String square = "";
-  late String pentagon = "";
-  late String hexagon = "";
-  late String oval = "";
-  late String rhombus = "";
-  late String star = "";
-  late String heart = "";
-  late String octagon = "";
+   String rectangle = "";
+   String circle = "";
+   String triangle = "";
+   String square = "";
+   String pentagon = "";
+   String hexagon = "";
+   String oval = "";
+   String rhombus = "";
+   String star = "";
+   String heart = "";
+   String octagon = "";
 
   final TextToSpeech tts = TextToSpeech();
 

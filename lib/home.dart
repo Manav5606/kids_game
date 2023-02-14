@@ -5,7 +5,7 @@ import 'package:kids_game/numbers.dart';
 import 'package:kids_game/shapes.dart';
 
 class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
+  const Home({Key key}) : super(key: key);
 
   @override
   State<Home> createState() => _HomeState();
